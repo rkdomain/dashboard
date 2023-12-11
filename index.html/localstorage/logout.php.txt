@@ -1,0 +1,8 @@
+<?php
+// Perform any necessary logout actions, such as destroying the session or clearing user data
+// For simplicity, let's unset the user data stored in localStorage in this example
+echo "<script>
+        localStorage.removeItem('userData');
+        window.location.href = 'login.html';
+      </script>";
+?>
